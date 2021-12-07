@@ -98,6 +98,12 @@ body {
   margin-bottom: 30px;
 }
 
+#container-sedan li:nth-child(4),
+#container-suv li:nth-child(4),
+#container-luxury li:nth-child(4) {
+  margin-top: 80px;
+}
+
 .title-item {
   color: var(--bg-heading-buttons);
   text-transform: uppercase;
