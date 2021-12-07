@@ -104,7 +104,6 @@ body {
   margin-top: 40px;
 }
 
-
 .title-item {
   color: var(--bg-heading-buttons);
   text-transform: uppercase;
@@ -124,6 +123,11 @@ body {
   border-radius: 15px;
   font-family: var(--font-lexend);
   font-size: var(--font-size);
+}
+@media (min-width: 280px) and (max-width: 280px) {
+  .button-item {
+    padding: 15px 15px;
+  }
 }
 
 .button-item:hover {
@@ -201,9 +205,9 @@ body {
     border-bottom-right-radius: 10px;
   }
 
-#container-sedan li:nth-child(4),
-#container-suv li:nth-child(4),
-#container-luxury li:nth-child(4) {
-  margin-top: 20px;
-}
+  #container-sedan li:nth-child(4),
+  #container-suv li:nth-child(4),
+  #container-luxury li:nth-child(4) {
+    margin-top: 20px;
+  }
 }
